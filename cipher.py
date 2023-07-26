@@ -1,4 +1,4 @@
-user_sentence = input("Enter your sentence here: ")
+user_sentence = input("Please enter a sentence: ")
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 encrypted_string = ""
 for letter in user_sentence.lower():
@@ -12,4 +12,4 @@ for letter in user_sentence.lower():
     else:
         encrypted_string += letter
 
-print(encrypted_string)
+print("The encrypted sentence is: " + encrypted_string)
